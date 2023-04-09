@@ -20,11 +20,9 @@ import matplotlib.pyplot as plt
 import os
 
 
-data_path = os.path.join(os.getcwd(), 'X.csv')
-X = pd.read_csv(data_path)
 
-data_path = os.path.join(os.getcwd(), 'Y.csv')
-Y = pd.read_csv(data_path)
+X = pd.read_csv('Shreya/X.csv')
+Y = pd.read_csv('Shreya/Y.csv')
 
 X = X.drop(columns=['Unnamed: 0'])
 Y = Y.drop(columns=['Unnamed: 0'])

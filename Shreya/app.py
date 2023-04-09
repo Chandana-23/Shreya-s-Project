@@ -17,6 +17,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 
 
 data_path = os.path.join(os.getcwd(), 'X.csv')
